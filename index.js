@@ -173,7 +173,7 @@ submitBtn.onclick = function() {
         resultElement.textContent= `
         To know God and have a deeper relationship with Him.`
     }else if (option == 19) {
-        resultElement.textContent= `Software Engineering and Cctvs and alarm systems Installation engineer`
+        resultElement.textContent= `Software Engineering, Cctvs and alarm systems Technician`
     }else if (option == 20) {
         resultElement.textContent= `
         I prioritize my relationship with God above all else, seeking guidance and wisdom from Him.
@@ -260,4 +260,5 @@ submitBtn.onclick = function() {
 
 
 }
+
 

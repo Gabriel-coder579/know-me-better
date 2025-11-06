@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div class="container" id="intro-container">
+        <div>
+            <p>
+                People often make assumptions or think they know me based on how I behave in public.
+                Some think i'm always in spiritual mode.
+                Some think i'm a very serious person.
+                Some think i'm a very funny person.
+                Some think i'm a very quiet person.
+                Some think i'm a very friendly person.
+
+            </p>
+        </div>
+
+        <div>
+            <p>
+                The truth is, I am a combination of all these things and more.
+                I have different facets to my personality that I show in different situations.
+                I can be serious when the situation calls for it, but I also know how to have fun and make people laugh.
+                I can be quiet and reserved, but I also enjoy socializing and meeting new people.
+                I can be friendly and approachable, but I also value my alone time and need space to recharge.
+                I am a complex person with many layers, and I believe that everyone is like that to some extent.
+                I think it's important to get to know someone beyond the surface level and not make assumptions based on limited interactions.
+            </p>
+        </div>
+
+        <div id="invitation">
+            <p>Get to know me better by clicking the button below:</p>
+        </div>
+        <a id="button" href="index.html" >Learn More</a>
+
+    
+    </div>
+
+    
+    <script>
+        document.body.style.fontFamily = "Arial, sans-serif";
+        document.body.style.backgroundColor = "grey";
+        document.body.style.margin = "5px";
+        const introContainer = document.getElementById("intro-container");
+        if (introContainer) {
+          introContainer.style.display = "flex";
+          introContainer.style.flexDirection = "column";
+          introContainer.style.alignItems = "center";
+          introContainer.style.backgroundColor = "grey";
+          introContainer.style.padding = "9px";
+          introContainer.style.borderRadius = "8px";
+          introContainer.style.boxShadow = "0 15px 8px rgba(12,30,0.3)";
+          introContainer.style.marginTop = "130px";
+          //introContainer.style.width = "600px";
+          //introContainer.style.height = "400px";
+
+          
+        }
+
+        const button = document.getElementById("button");
+        button.style.color = "white";
+        button.style.fontFamily= "nevada"
+        button.style.fontWeight = "bold"
+        button.style.padding = "4px";
+        button.style.background = "black";
+        button.style.border = "3px solid";
+        button.style.borderRadius = "0 15px 8px";
+        button.style.boxShadow = "0 10px 5px";
+
+        // Creating a hover on my back to home page link
+button.addEventListener('mouseover', () =>{
+    button.style.background = "gray"
+    button.style.color = " black"
+});
+
+button.addEventListener('mouseout', () =>{
+    button.style.background = "white"
+    button.style.color = 'black'
+}) 
+
+    </script>
+
+</body>
+</html>
